@@ -1,15 +1,15 @@
-# 📮 Philately - The Ultimate Stamp Collection App
+# 📮 HeritageHub - The Ultimate Heritage & Handicrafts Marketplace
 
-### 🏆 Smart India Hackathon 2024 Grand Finalist
+### 🏆 ANRF-INAE sponsored Technovate Winner
 
 
 ## 🌟 About the Project 
 
 
-**Philately** is a **Flutter-based mobile application** designed for **stamp collectors (philatelists)**. It provides a **comprehensive digital marketplace** where users can **explore, buy, sell, and auction rare stamps**, access **detailed philatelic information**, and connect with a vibrant community of collectors.  
+**HeritageHub** is a **Flutter-based mobile application** designed to **promote and preserve India's rich cultural heritage and handicrafts**. It provides a **comprehensive digital marketplace** where users can **explore, buy, and sell traditional handicrafts, artworks, and textiles** from various states across India. The app aims to **connect artisans, collectors, and enthusiasts** while offering a **seamless user experience, secure transactions, and advanced search features**.
 
 
-With a **seamless user experience, secure transactions, and advanced search features**, Philately transforms traditional stamp collecting into a modern, interactive, and engaging experience.
+With a **seamless user experience, secure transactions, and advanced search features**, HeritageHub transforms traditional stamp collecting into a modern, interactive, and engaging experience.
 
 ---
 
@@ -19,36 +19,47 @@ With a **seamless user experience, secure transactions, and advanced search feat
 ### 📝 1. Sign Up & Secure User Authentication
 - **Firebase Authentication** ensures **safe & seamless login**.
 - **Email verification** adds an extra layer of **security**.
-- Users can set their **stamp preferences** (Miniature, Rare, or Indian stamps) during **sign-up**.
+- Users can set their **preferences** (e.g., Andhra Pradesh Handicrafts, Rajasthan Handicrafts) during **sign-up**.
 
 
-### 💰 2. National Philately Deposit Account (NPDA) 🏛️
-- Users can **register online** with a **₹200 deposit** to access **exclusive stamp releases**.
-- Secure data storage with **Firebase authentication**.
-- **Digital integration** with the **Philatelic Bureau**.
-
-
-### 🏠 3. Personalized Home Page
+### 🏠 2. Personalized Home Page
 - **Dynamic content** updates based on **user preferences**.
 - A visually engaging **UI/UX** for **seamless browsing**.
 
 
-### 🔍 4. Explore Stamps – Discover & Learn
-- Browse a **vast collection of stamps**, categorized into:
-  - Worldwide Stamps 🌍
-  - Indian Stamps 🇮🇳
-  - Rare & Exclusive Stamps 🏅
+### 🔍 3. Explore Handicrafts – Discover & Learn
+- Browse a **vast collection of handicrafts**, categorized by state:
+  - Andhra Pradesh (Kalamkari Artwork)
+  - Rajasthan (Meenakari Jewelry)
+  - West Bengal (Terracotta Sculpture)
+  - Odisha (Pattachitra Painting)
+  - Gujarat (Bandhani Fabric)
+  - Uttar Pradesh (Brassware Decor)
+  - Madhya Pradesh (Gond Painting)
+  - Assam (Muga Silk Saree)
 - Get **detailed descriptions & historical insights**.
-- **Smart search & filters** to easily find your desired stamps.
+- **Smart search & filters** to easily find your desired products.
 
-### 🛒 5. Buy Stamps – Hassle-Free Shopping
+### 🛒 4. Buy Handicrafts – Hassle-Free Shopping
 - **Simple Add-to-Cart** system for smooth transactions.
 - **Order tracking** to monitor purchases.
 - **Secure checkout** ensures a reliable buying experience.
 
-### ❤️ 6. Wishlist – Save & Manage Your Favorites
-- Easily **bookmark stamps** to revisit later.
+### ❤️ 5. Wishlist – Save & Manage Your Favorites
+- Easily **bookmark products** to revisit later.
 - Manage and organize your **saved collection** efficiently.
+
+### 🏛️ 6. Historic Sites – Explore Cultural Heritage
+- Discover **historical places** across India:
+  - West Bengal (Bishnupur Terracotta Temple)
+  - Andhra Pradesh (Srikalahasti Temple)
+  - Rajasthan (Jaipur Hawa Mahal)
+  - Tamil Nadu (Thanjavur Brihadeeswarar Temple)
+  - Gujarat (Vadodara Fort)
+  - Uttar Pradesh (Varanasi Ghats)
+  - Madhya Pradesh (Maheshwar Fort)
+  - Odisha (Jagannath Temple)
+  - Assam (Sivasagar – Ahom Kingdom)
 
 ---
 
@@ -62,8 +73,8 @@ With a **seamless user experience, secure transactions, and advanced search feat
 ## 📌 Installation & Setup
 ### 🔹 1. Clone the Repository
 ```bash
-git clone https://github.com/Ranojitdas/Philately.git  
-cd Philately
+git clone https://github.com/Ranojitdas/HeritageHub.git  
+cd HeritageHub
 ```
 
 ### 🔹 2. Install Dependencies
@@ -78,10 +89,10 @@ flutter run
 
 ---
 ## 🌍 Future Scope & Enhancements
-- **📩 In-App Notifications** – Alerts for new stamp releases.
+- **📩 In-App Notifications** – Alerts for new product releases.
 - **🔍 Advanced Search & Filters** – More precise search functionality.
-- **🤝 Community Feature** – Users can connect & trade stamps.
-- **📸 AI-Powered Stamp Recognition** – Scan & identify stamps using AI.
+- **🤝 Community Feature** – Users can connect & trade handicrafts.
+- **📸 AI-Powered Product Recognition** – Scan & identify products using AI.
 
 ---
 
@@ -99,22 +110,22 @@ welcome contributions! To contribute:
 ### 1️⃣ User Login 
 <div align="center">
   <figure>
-    <img src="https://github.com/Ranojitdas/Philately/blob/master/Screenshot%202025-03-08%20234824.png" alt="Welcome & Sign-Up" width="300" />
+    <img src="https://github.com/Ranojitdas/HeritageHub/blob/master/Screenshot%202025-03-08%20234824.png" alt="Welcome & Sign-Up" width="300" />
   
   </figure>
 </div>
 
-### 2️⃣ National Phiately Deposit Account (NPDA) Creation
+### 2️⃣ Historic Sites
 <div align="center">
   <figure>
-    <img src="https://github.com/Ranojitdas/Philately/blob/master/Screenshot 2025-03-08 235147.png" alt="User Login" width="300" />
+    <img src="https://github.com/Ranojitdas/HeritageHub/blob/master/Screenshot 2025-03-08 235147.png" alt="Historic Sites" width="300" />
   </figure>
 </div>
 
 ### 3️⃣ Email Authentication
 <div align="center">
   <figure>
-    <img src="https://github.com/Ranojitdas/Philately/blob/master/Screenshot 2025-03-08 235512.png" alt="Home Page" width="300" />
+    <img src="https://github.com/Ranojitdas/HeritageHub/blob/master/Screenshot 2025-03-08 235512.png" alt="Email Authentication" width="300" />
     
   </figure>
 </div>
@@ -122,13 +133,13 @@ welcome contributions! To contribute:
 ### 4️⃣ Personalized Home Page
 <div align="center">
   <figure>
-    <img src="https://github.com/Ranojitdas/Philately/blob/master/Screenshot 2025-03-08 235600.png" alt="Explore Stamps" width="300" />
+    <img src="https://github.com/Ranojitdas/HeritageHub/blob/master/Screenshot 2025-03-08 235600.png" alt="Home Page" width="300" />
   </figure>
 </div>
 
 ### 5️⃣ Other Features
 <div align="center">
   <figure>
-    <img src="https://github.com/Ranojitdas/Philately/blob/master/Screenshot 2025-03-08 235620.png" alt="Buy & Wishlist" width="300" />
+    <img src="https://github.com/Ranojitdas/HeritageHub/blob/master/Screenshot 2025-03-08 235620.png" alt="Buy & Wishlist" width="300" />
   </figure>
 </div>

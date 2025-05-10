@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
-import 'package:philately/utils/constants/colors.dart';
-import 'package:philately/utils/constants/sizes.dart';
-import 'package:philately/utils/constants/text_strings.dart';
-import 'package:philately/utils/helpers/helper_functions.dart';
-import 'package:philately/utils/validators/validation.dart';
+import 'package:HeritageHub/utils/constants/colors.dart';
+import 'package:HeritageHub/utils/constants/sizes.dart';
+import 'package:HeritageHub/utils/constants/text_strings.dart';
+import 'package:HeritageHub/utils/helpers/helper_functions.dart';
+import 'package:HeritageHub/utils/validators/validation.dart';
 
 import '../../../../shop/screens/checkout/widgets/checkout2.dart';
 import '../../../controllers.onboarding/signup/signup_controller.dart';
@@ -144,15 +144,15 @@ class TSignupForm extends StatelessWidget {
                     }
                   },
                   items: [
-                    'Philately News',
-                    'Exhibitions',
-                    'New Releases',
-                    'Cancellation',
-                    'Mint Commemorative Stamps',
-                    'Mint Definitive Stamps',
-                    'First Day Covers',
-                    'Information Brochure',
-                    'Postal Stationary'
+                    'Textiles - Chikankari',
+                    'Pottery - Blue Pottery',
+                    'Paintings - Pattachitra',
+                    'Metalwork - Meenakari',
+                    'Weaving - Bandhani',
+                    'Embroidery - Kantha',
+                    'Woodwork - Etikoppaka',
+                    'Handloom - Kanjeevaram',
+                    'Tribal Art - Gond'
                   ]
                       .map((String preference) {
                     return DropdownMenuItem<String>(
@@ -161,7 +161,7 @@ class TSignupForm extends StatelessWidget {
                     );
                   }).toList(),
                   decoration: const InputDecoration(
-                    labelText: 'Select Preferences',
+                    labelText: 'Select Your Craft',
                     prefixIcon: Icon(Iconsax.filter),
                   ),
                 ),

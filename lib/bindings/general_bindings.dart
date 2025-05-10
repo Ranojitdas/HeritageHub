@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:philately/utils/helpers/network_manager.dart';
+import 'package:HeritageHub/utils/helpers/network_manager.dart';
 
 
 class GeneralBindings extends Bindings {

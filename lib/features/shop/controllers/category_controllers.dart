@@ -1,8 +1,8 @@
 // import 'package:get/get.dart';
 // import 'package:get_storage/get_storage.dart';
-// import 'package:philately/common/widgets/loaders/loaders.dart';
-// import 'package:philately/data/repositories/categories/category_repository.dart';
-// import 'package:philately/features/shop/models/category_models.dart';
+// import 'package:HeritageHub/common/widgets/loaders/loaders.dart';
+// import 'package:HeritageHub/data/repositories/categories/category_repository.dart';
+// import 'package:HeritageHub/features/shop/models/category_models.dart';
 //
 // class CategoryController extends GetxController{
 //   static CategoryController get instance => Get.find();

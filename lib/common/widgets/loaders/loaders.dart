@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:get/get_navigation/get_navigation.dart';
 import 'package:iconsax/iconsax.dart';
-import 'package:philately/utils/constants/colors.dart';
-import 'package:philately/utils/helpers/helper_functions.dart';
+import 'package:HeritageHub/utils/constants/colors.dart';
+import 'package:HeritageHub/utils/helpers/helper_functions.dart';
 
 class TLoaders{
   static hideSnackBar() => ScaffoldMessenger.of(Get.context!).hideCurrentSnackBar();

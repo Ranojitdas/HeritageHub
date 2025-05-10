@@ -1,16 +1,16 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
-import 'package:philately/common/widgets/custom_shapes/containers/rounded_container.dart';
-import 'package:philately/common/widgets/icons/t_circular_icon.dart';
-import 'package:philately/common/widgets/images_banner/t_rounded_banner_image.dart';
-import 'package:philately/common/widgets/texts/product_price_text.dart';
-import 'package:philately/common/widgets/texts/product_title_text.dart';
-import 'package:philately/utils/constants/colors.dart';
-import 'package:philately/utils/constants/image_strings.dart';
-import 'package:philately/utils/constants/shadows.dart';
-import 'package:philately/utils/constants/sizes.dart';
-import 'package:philately/utils/helpers/helper_functions.dart';
+import 'package:HeritageHub/common/widgets/custom_shapes/containers/rounded_container.dart';
+import 'package:HeritageHub/common/widgets/icons/t_circular_icon.dart';
+import 'package:HeritageHub/common/widgets/images_banner/t_rounded_banner_image.dart';
+import 'package:HeritageHub/common/widgets/texts/product_price_text.dart';
+import 'package:HeritageHub/common/widgets/texts/product_title_text.dart';
+import 'package:HeritageHub/utils/constants/colors.dart';
+import 'package:HeritageHub/utils/constants/image_strings.dart';
+import 'package:HeritageHub/utils/constants/shadows.dart';
+import 'package:HeritageHub/utils/constants/sizes.dart';
+import 'package:HeritageHub/utils/helpers/helper_functions.dart';
 
 class TProductCardHorizontal extends StatelessWidget {
   const TProductCardHorizontal({super.key});

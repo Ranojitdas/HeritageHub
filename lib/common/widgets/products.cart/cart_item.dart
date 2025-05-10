@@ -1,51 +1,50 @@
 import 'package:flutter/material.dart';
-import 'package:philately/common/widgets/images_banner/t_rounded_banner_image.dart';
-import 'package:philately/utils/constants/colors.dart';
-import 'package:philately/utils/constants/image_strings.dart';
-import 'package:philately/utils/constants/sizes.dart';
-import 'package:philately/utils/helpers/helper_functions.dart';
-
+import 'package:HeritageHub/utils/constants/colors.dart';
+import 'package:HeritageHub/utils/constants/sizes.dart';
+import 'package:HeritageHub/utils/helpers/helper_functions.dart';
+import 'package:HeritageHub/features/shop/screens/cart/widgets/cart_controller.dart';
 
 class TCartItem extends StatelessWidget {
-  const TCartItem({
-    super.key,
-  });
+  final CartItem item;
+
+  const TCartItem({super.key, required this.item});
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        /// Image
-        Flexible(
-          child: TRoundedImage(
-            imageUrl: TImages.productImage1,
-            width: 60,
-            height: 60,
-            padding: const EdgeInsets.all(TSizes.sm),
-            backgroundColor: THelperFunctions.isDarkMode(context) ? TColors.darkGrey : TColors.light,
+        /// Image Placeholder (Replace with actual image logic)
+        Container(
+          width: 60,
+          height: 60,
+          decoration: BoxDecoration(
+            color: THelperFunctions.isDarkMode(context) ? TColors.darkGrey : TColors.light,
+            borderRadius: BorderRadius.circular(10),
           ),
+          child: Center(child: Icon(Icons.image, size: 30, color: Colors.grey)),
         ),
-        const SizedBox(width: TSizes.spaceBtwItems,),
+        const SizedBox(width: TSizes.spaceBtwItems),
 
         Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           mainAxisSize: MainAxisSize.min,
           children: [
-            // const TProductTitleText(title: 'Indian Independence Day Stamp ', maxLines: 1,),
-            Text('Indian Independence Day Stamp ', maxLines: 1,style: Theme.of(context).textTheme.bodyLarge,),
+            Text(item.name, maxLines: 1, style: Theme.of(context).textTheme.bodyLarge),
+
             Text.rich(
-                TextSpan(
-                    children: [
-                      TextSpan(text: 'Quality ',style: Theme.of(context).textTheme.bodySmall),
-                      TextSpan(text: 'New ',style: Theme.of(context).textTheme.bodyLarge),
-                      TextSpan(text: 'Available ',style: Theme.of(context).textTheme.bodySmall),
-                      TextSpan(text: 'Yes ',style: Theme.of(context).textTheme.bodyLarge),
-                      TextSpan(text: '                       ',style: Theme.of(context).textTheme.bodyLarge),
-                    ]
-                )
-            )
+              TextSpan(
+                children: [
+                  TextSpan(text: 'Quality: ', style: Theme.of(context).textTheme.bodySmall),TextSpan(text: CartItem.quality, style: Theme.of(context).textTheme.bodyLarge), // ✅ Static Quality
+                  TextSpan(text: '  |  ', style: Theme.of(context).textTheme.bodySmall),
+                  TextSpan(text: 'Available: ', style: Theme.of(context).textTheme.bodySmall),
+                  TextSpan(
+                      text: CartItem.isAvailable ? 'Yes' : 'No',
+                      style: Theme.of(context).textTheme.bodyLarge), // ✅ Static Availability
+                ],
+              ),
+            ),
           ],
-        )
+        ),
       ],
     );
   }

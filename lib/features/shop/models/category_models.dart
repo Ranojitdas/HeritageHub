@@ -1,6 +1,6 @@
 
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:philately/features/shop/models/category_models.dart';
+import 'package:HeritageHub/features/shop/models/category_models.dart';
 
 class CategoryModel {
   String id;

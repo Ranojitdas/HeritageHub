@@ -5,8 +5,8 @@ plugins {
 }
 
 android {
-    namespace = "com.example.philately"
-    compileSdk = 34  // Ensure this matches your Flutter compileSdkVersion
+    namespace = "com.example.HeritageHub"
+    compileSdk = 35  // Ensure this matches your Flutter compileSdkVersion
     ndkVersion = "25.2.9519653" // Ensure this is correct
 
     compileOptions {
@@ -19,7 +19,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.philately"
+        applicationId = "com.example.HeritageHub"
         minSdk = 21  // Ensure this matches Flutter minSdkVersion
         targetSdk = 34  // Ensure this matches Flutter targetSdkVersion
         versionCode = 1  // Set your app's version code

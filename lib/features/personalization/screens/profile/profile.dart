@@ -3,12 +3,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
 import 'package:flutter/widgets.dart';
 import 'package:iconsax/iconsax.dart';
-import 'package:philately/common/widgets/appbar/appbar.dart';
-import 'package:philately/common/widgets/list_tiles/user_profile_tile.dart';
-import 'package:philately/common/widgets/texts/section_heading.dart';
-import 'package:philately/features/personalization/screens/profile/widgets/profile_menu.dart';
-import 'package:philately/utils/constants/image_strings.dart';
-import 'package:philately/utils/constants/sizes.dart';
+import 'package:HeritageHub/common/widgets/appbar/appbar.dart';
+import 'package:HeritageHub/common/widgets/list_tiles/user_profile_tile.dart';
+import 'package:HeritageHub/common/widgets/texts/section_heading.dart';
+import 'package:HeritageHub/features/personalization/screens/profile/widgets/profile_menu.dart';
+import 'package:HeritageHub/utils/constants/image_strings.dart';
+import 'package:HeritageHub/utils/constants/sizes.dart';
 
 class ProfileScreen extends StatelessWidget {
   const ProfileScreen({super.key});

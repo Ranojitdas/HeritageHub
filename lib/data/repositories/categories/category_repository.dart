@@ -2,9 +2,9 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'package:philately/features/shop/models/category_models.dart';
-import 'package:philately/utils/exceptions/firebase_exceptions.dart';
-import 'package:philately/utils/exceptions/format_exceptions.dart';
+import 'package:HeritageHub/features/shop/models/category_models.dart';
+import 'package:HeritageHub/utils/exceptions/firebase_exceptions.dart';
+import 'package:HeritageHub/utils/exceptions/format_exceptions.dart';
 
 class CategoryRepository extends GetxController {
   static CategoryRepository get instance => Get.find();

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:philately/features/shop/screens/Home/widgets/home_appbar.dart';
+import 'package:HeritageHub/features/shop/screens/Home/widgets/home_appbar.dart';
 import '../../../../common/widgets/custom_shapes/containers/primary_header_container.dart';
 import '../../../../common/widgets/custom_shapes/containers/search_container.dart';
 import '../../../../common/widgets/images_banner/t_rounded_banner_image.dart';
@@ -17,36 +17,68 @@ class HomeScreen extends StatelessWidget {
 
   final List<Map<String, String>> productData = [
     {
-      'imageUrl': TImages.productImage1,
-      'title': 'Indian Independence Stamp',
-      'price': '35',
-      'description': 'Indian stamp',
-      'discount': '25',
-      'category': 'Philately News',
-    },
-    {
-      'imageUrl': TImages.productImage2,
-      'title': 'Mahatma Gandhi Stamp',
-      'price': '50',
-      'description': 'Gandhi stamp',
+      'imageUrl': TImages.productImageAP1,
+      'title': 'Kalamkari Artwork',
+      'price': '1200',
+      'description': 'Handcrafted arts',
       'discount': '15',
-      'category': 'Mint Commemorative Stamps',
+      'category': 'Andhra Pradesh Handicrafts',
     },
     {
-      'imageUrl': TImages.productImage3,
-      'title': 'Historic Indian Coin',
-      'price': '80',
-      'description': 'Indian coin collection',
+      'imageUrl': TImages.productImageRJ2,
+      'title': 'Meenakari Jewelry',
+      'price': '2500',
+      'description': 'Traditional craft',
       'discount': '10',
-      'category': 'Exhibitions',
+      'category': 'Rajasthan Handicrafts',
     },
     {
-      'imageUrl': TImages.productImage4,
-      'title': 'Freedom Fighters Stamp',
-      'price': '60',
-      'description': 'For freedom fighters',
+      'imageUrl': TImages.productImageWB1,
+      'title': 'Terracotta Sculpture',
+      'price': '1800',
+      'description': 'Clay artwork',
+      'discount': '12',
+      'category': 'West Bengal Handicrafts',
+    },
+    {
+      'imageUrl': TImages.productImageOD1,
+      'title': 'Pattachitra Painting',
+      'price': '3000',
+      'description': 'Folk art',
       'discount': '20',
-      'category': 'First Day Covers',
+      'category': 'Odisha Handicrafts',
+    },
+    {
+      'imageUrl': TImages.productImageWB2,
+      'title': 'Bandhani Fabric',
+      'price': '1500',
+      'description': 'Tie-dye textile',
+      'discount': '18',
+      'category': 'Gujarat Handicrafts',
+    },
+    {
+      'imageUrl': TImages.productImageWB2,
+      'title': 'Brassware Decor',
+      'price': '2200',
+      'description': 'Metal craft',
+      'discount': '15',
+      'category': 'Uttar Pradesh Handicrafts',
+    },
+    {
+      'imageUrl': TImages.productImageWB2,
+      'title': 'Gond Painting',
+      'price': '2700',
+      'description': 'Tribal art',
+      'discount': '10',
+      'category': 'Madhya Pradesh Handicrafts',
+    },
+    {
+      'imageUrl': TImages.productImageWB6,
+      'title': 'Muga Silk Saree',
+      'price': '5000',
+      'description': 'Assamese silk',
+      'discount': '12',
+      'category': 'Assam Handicrafts',
     },
   ];
 
@@ -65,10 +97,11 @@ class HomeScreen extends StatelessWidget {
             selectedPreferences.contains(product['category']))
             .toList();
 
-        // Dynamic title and default to a generic title if no preferences
+// Dynamic title and default to a generic title if no preferences
         final sectionTitle = selectedPreferences.isEmpty
-            ? 'Mint Commemorative Stamps'
+            ? 'Textiles - Chikankari'
             : 'Your Preferences: ${selectedPreferences.join(", ")}';
+
 
         return SingleChildScrollView(
           child: Column(
@@ -78,7 +111,7 @@ class HomeScreen extends StatelessWidget {
                   children: [
                     THomeAppBar(),
                     SizedBox(height: TSizes.spaceBtwSections),
-                    TSearchContainer(text: 'Search Stamps & Collections'),
+                    TSearchContainer(text: 'Find Your Art & Craft'),
                     SizedBox(height: TSizes.spaceBtwSections),
                   ],
                 ),
@@ -87,7 +120,7 @@ class HomeScreen extends StatelessWidget {
                 padding: const EdgeInsets.all(TSizes.defaultSpace),
                 child: Column(
                   children: [
-                    const TRoundedImage(imageUrl: TImages.promoBanner3),
+                    const TRoundedImage(imageUrl: TImages.banner1),
                     const SizedBox(height: TSizes.spaceBtwSections),
                     TSectionHeading(
                       title: sectionTitle,

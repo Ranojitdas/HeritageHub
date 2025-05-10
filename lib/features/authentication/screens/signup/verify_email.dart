@@ -1,14 +1,14 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:philately/common/widgets/Success_screen/success_screen.dart';
-import 'package:philately/data/repositories/authentication/authentication_repository.dart';
-import 'package:philately/features/authentication/controllers.onboarding/signup/verify_email_controller.dart';
-import 'package:philately/features/authentication/screens/login/login.dart';
-import 'package:philately/utils/constants/image_strings.dart';
-import 'package:philately/utils/constants/sizes.dart';
-import 'package:philately/utils/constants/text_strings.dart';
-import 'package:philately/utils/helpers/helper_functions.dart';
+import 'package:HeritageHub/common/widgets/Success_screen/success_screen.dart';
+import 'package:HeritageHub/data/repositories/authentication/authentication_repository.dart';
+import 'package:HeritageHub/features/authentication/controllers.onboarding/signup/verify_email_controller.dart';
+import 'package:HeritageHub/features/authentication/screens/login/login.dart';
+import 'package:HeritageHub/utils/constants/image_strings.dart';
+import 'package:HeritageHub/utils/constants/sizes.dart';
+import 'package:HeritageHub/utils/constants/text_strings.dart';
+import 'package:HeritageHub/utils/helpers/helper_functions.dart';
 
 class VerifyEmailScreen extends StatelessWidget{
   const VerifyEmailScreen({super.key, this.email});

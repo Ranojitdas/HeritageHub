@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:philately/common/widgets/appbar/appbar.dart';
-import 'package:philately/features/shop/screens/order/widgets/order_list.dart';
-import 'package:philately/utils/constants/sizes.dart';
+import 'package:HeritageHub/common/widgets/appbar/appbar.dart';
+import 'package:HeritageHub/features/shop/screens/order/widgets/order_list.dart';
+import 'package:HeritageHub/utils/constants/sizes.dart';
 
 class OrderScreen extends StatelessWidget {
   const OrderScreen({super.key});

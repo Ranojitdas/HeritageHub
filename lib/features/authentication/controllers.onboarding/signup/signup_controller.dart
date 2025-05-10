@@ -1,13 +1,13 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
-import 'package:philately/common/widgets/loaders/loaders.dart';
-import 'package:philately/data/repositories/authentication/authentication_repository.dart';
-import 'package:philately/data/repositories/user/user_model.dart';
-import 'package:philately/data/repositories/user/user_repository.dart';
-import 'package:philately/features/authentication/screens/signup/verify_email.dart';
-import 'package:philately/utils/constants/image_strings.dart';
-import 'package:philately/utils/helpers/network_manager.dart';
+import 'package:HeritageHub/common/widgets/loaders/loaders.dart';
+import 'package:HeritageHub/data/repositories/authentication/authentication_repository.dart';
+import 'package:HeritageHub/data/repositories/user/user_model.dart';
+import 'package:HeritageHub/data/repositories/user/user_repository.dart';
+import 'package:HeritageHub/features/authentication/screens/signup/verify_email.dart';
+import 'package:HeritageHub/utils/constants/image_strings.dart';
+import 'package:HeritageHub/utils/helpers/network_manager.dart';
 
 class SignupController extends GetxController {
   static SignupController get instance => Get.find();
@@ -28,7 +28,7 @@ class SignupController extends GetxController {
 
   /// Preferences
   final preferences = [
-    'Philately News',
+    'HeritageHub News',
     'Exhibitions',
     'New Releases',
     'Cancellation',
@@ -42,7 +42,7 @@ class SignupController extends GetxController {
 
   /// Images associated with preferences
   final Map<String, String> preferenceImages = {
-    'Philately News': TImages.productImage5,
+    'HeritageHub News': TImages.productImage5,
     'Exhibitions': TImages.productImage7,
     'New Releases':TImages.productImage8,
     'Cancellation':TImages.productImage9,

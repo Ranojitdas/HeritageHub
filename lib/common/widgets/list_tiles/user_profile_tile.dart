@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:get/get_navigation/get_navigation.dart';
 import 'package:iconsax/iconsax.dart';
-import 'package:philately/common/widgets/custom_shapes/containers/circular_container.dart';
-import 'package:philately/common/widgets/icons/t_circular_icon.dart';
-import 'package:philately/features/personalization/screens/profile/profile.dart';
-import 'package:philately/utils/constants/colors.dart';
-import 'package:philately/utils/constants/image_strings.dart';
+import 'package:HeritageHub/common/widgets/custom_shapes/containers/circular_container.dart';
+import 'package:HeritageHub/common/widgets/icons/t_circular_icon.dart';
+import 'package:HeritageHub/features/personalization/screens/profile/profile.dart';
+import 'package:HeritageHub/utils/constants/colors.dart';
+import 'package:HeritageHub/utils/constants/image_strings.dart';
 
 
 class TUserProfileTile extends StatelessWidget {

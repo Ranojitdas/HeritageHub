@@ -1,9 +1,9 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'package:philately/data/repositories/user/user_model.dart';
-import 'package:philately/utils/exceptions/firebase_exceptions.dart';
-import 'package:philately/utils/exceptions/format_exceptions.dart';
+import 'package:HeritageHub/data/repositories/user/user_model.dart';
+import 'package:HeritageHub/utils/exceptions/firebase_exceptions.dart';
+import 'package:HeritageHub/utils/exceptions/format_exceptions.dart';
 
 class UserRepository extends GetxController{
   static UserRepository get instance => Get.find();

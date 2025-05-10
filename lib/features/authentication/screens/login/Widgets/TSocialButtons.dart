@@ -1,8 +1,8 @@
 
 import 'package:flutter/material.dart';
-import 'package:philately/utils/constants/colors.dart';
-import 'package:philately/utils/constants/image_strings.dart';
-import 'package:philately/utils/constants/sizes.dart';
+import 'package:HeritageHub/utils/constants/colors.dart';
+import 'package:HeritageHub/utils/constants/image_strings.dart';
+import 'package:HeritageHub/utils/constants/sizes.dart';
 
 class TSocialButtons extends StatelessWidget {
   const TSocialButtons({

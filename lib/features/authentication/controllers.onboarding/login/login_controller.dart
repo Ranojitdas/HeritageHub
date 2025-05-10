@@ -1,10 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:philately/common/widgets/loaders/loaders.dart';
-import 'package:philately/data/repositories/authentication/authentication_repository.dart';
-import 'package:philately/utils/helpers/network_manager.dart';
-import 'package:philately/utils/local_storage/storage_utility.dart';
+import 'package:HeritageHub/common/widgets/loaders/loaders.dart';
+import 'package:HeritageHub/data/repositories/authentication/authentication_repository.dart';
+import 'package:HeritageHub/utils/helpers/network_manager.dart';
+import 'package:HeritageHub/utils/local_storage/storage_utility.dart';
 
 class LoginController extends GetxController{
 

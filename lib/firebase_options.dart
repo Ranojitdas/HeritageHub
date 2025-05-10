@@ -65,7 +65,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '558263618065',
     projectId: 'philatelix-ecommerce-app',
     storageBucket: 'philatelix-ecommerce-app.firebasestorage.app',
-    iosBundleId: 'com.example.philately',
+    iosBundleId: 'com.example.HeritageHub',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(

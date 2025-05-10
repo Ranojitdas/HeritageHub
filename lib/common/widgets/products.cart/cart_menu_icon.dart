@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
-import 'package:philately/features/shop/screens/cart/cart.dart';
-import 'package:philately/utils/constants/colors.dart';
+import 'package:HeritageHub/features/shop/screens/cart/cart.dart';
+import 'package:HeritageHub/utils/constants/colors.dart';
 class TCartCounterIcon extends StatelessWidget {
   const TCartCounterIcon({
     super.key, this.iconColor,required this.onPressed,

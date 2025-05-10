@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:philately/features/authentication/controllers.onboarding/onboarding_controller.dart';
-import 'package:philately/utils/constants/sizes.dart';
-import 'package:philately/utils/device/device_utility.dart';
+import 'package:HeritageHub/features/authentication/controllers.onboarding/onboarding_controller.dart';
+import 'package:HeritageHub/utils/constants/sizes.dart';
+import 'package:HeritageHub/utils/device/device_utility.dart';
 
 class OnBoardingSkip extends StatelessWidget {
   const OnBoardingSkip({

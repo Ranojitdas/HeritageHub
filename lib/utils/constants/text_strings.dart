@@ -1,4 +1,3 @@
-
 /// This class contains all the App Text in String formats.
 class TTexts {
 
@@ -7,67 +6,62 @@ class TTexts {
   static const String skip = "Skip";
   static const String done = "Done";
   static const String submit = "Submit";
-  static const String appName = "T-Store";
+  static const String appName = "AtmaNirbhar Bazaar";
   static const String tContinue = "Continue";
 
-
   // -- OnBoarding Texts
-  static const String onBoardingTitle1 = "Choose your Stamps";
-  static const String onBoardingTitle2 = "Select Payment Method";
-  static const String onBoardingTitle3 = "Deliver at your door step";
+  static const String onBoardingTitle1 = "Explore Authentic Handcrafted Products";
+  static const String onBoardingTitle2 = "Secure & Hassle-Free Payments";
+  static const String onBoardingTitle3 = "Support Local Artisans, Get Fast Delivery";
 
-  static const String onBoardingSubTitle1 = "Welcome to a World of Stamps - Your Perfect Stamp Awaits!";
-  static const String onBoardingSubTitle2 = "For Seamless Transactions, Choose Your Payment Path - Your Convenience, Our Priority!";
-  static const String onBoardingSubTitle3 = "From Our Doorstep to Yours - Swift, Secure, and Contactless Delivery!";
-
+  static const String onBoardingSubTitle1 = "Discover a curated collection of handmade treasures from skilled Indian artisans.";
+  static const String onBoardingSubTitle2 = "Choose from multiple payment options designed for a smooth shopping experience.";
+  static const String onBoardingSubTitle3 = "Your purchase directly supports local craftsmen. Enjoy fast and reliable delivery to your doorstep.";
 
   // -- Authentication Forms
   static const String firstName = "First Name";
-  static const String aadhar = "Aadhar no.";
-  static const String pan = "Pan no.";
-  static const String mailing = "Mailing address";
+  static const String aadhar = "Aadhar Number";
+  static const String pan = "PAN Number";
+  static const String mailing = "Mailing Address";
   static const String lastName = "Last Name";
-  static const String email = "E-Mail";
+  static const String email = "Email";
   static const String password = "Password";
   static const String newPassword = "New Password";
   static const String username = "Username";
   static const String phoneNo = "Phone Number";
   static const String rememberMe = "Remember Me";
-  static const String forgetPassword = "Forget Password?";
+  static const String forgetPassword = "Forgot Password?";
   static const String signIn = "Sign In";
   static const String createAccount = "Create Account";
-  static const String orSignInWith = "or sign in with";
-  static const String orSignUpWith = "or sign up with";
+  static const String orSignInWith = "Or sign in with";
+  static const String orSignUpWith = "Or sign up with";
   static const String iAgreeTo = "I agree to";
   static const String privacyPolicy = "Privacy Policy";
-  static const String termsOfUse = "Terms of use";
-  static const String verificationCode = "verificationCode";
+  static const String termsOfUse = "Terms of Use";
+  static const String verificationCode = "Verification Code";
   static const String resendEmail = "Resend Email";
   static const String resendEmailIn = "Resend email in";
 
-
   // -- Authentication Headings
   static const String loginTitle = "Welcome back,";
-  static const String loginSubTitle = "Discover Limitless Choices of stamps and Unmatched Convenience.";
-  static const String signupTitle = "Let’s create your NPDA account";
-  static const String forgetPasswordTitle = "Forget password";
-  static const String forgetPasswordSubTitle = "Don’t worry sometimes people can forget too, enter your email and we will send you a password reset link.";
+  static const String loginSubTitle = "Support Local, Shop Smart - Explore Unique Indian Handicrafts.";
+  static const String signupTitle = "Start Your HeritageHub journey";
+  static const String forgetPasswordTitle = "Forgot Password?";
+  static const String forgetPasswordSubTitle = "No worries! Enter your email and we'll send you a link to reset your password securely.";
   static const String changeYourPasswordTitle = "Password Reset Email Sent";
-  static const String changeYourPasswordSubTitle = "Your Account Security is Our Priority! We've Sent You a Secure Link to Safely Change Your Password and Keep Your Account Protected.";
-  static const String confirmEmail = "Verify your email address!";
-  static const String confirmEmailSubTitle = "Congratulations! Your Account Awaits: Verify Your Email to Start Shopping and Experience a World of Unrivaled Deals and Personalized Offers.";
-  static const String emailNotReceivedMessage = "Didn’t get the email? Check your junk/spam or resend it.";
-  static const String yourAccountCreatedTitle = "Your account successfully created!";
-  static const String yourAccountCreatedSubTitle = "Welcome to Your Ultimate Stamp Destination: Your Account is Created, Unleash the Joy of Seamless Stamp Collecting!";
-  static const String cpaAccount = "I understand that creating an NPDA account costs ₹200. I'll be redirected to the payment gateway after clicking 'Create Account";
+  static const String changeYourPasswordSubTitle = "For your security, we've sent you a link to reset your password. Protect your account and continue shopping!";
+  static const String confirmEmail = "Verify Your Email Address!";
+  static const String confirmEmailSubTitle = "Your journey to discovering authentic handmade products begins here. Verify your email to start shopping!";
+  static const String emailNotReceivedMessage = "Didn't get the email? Check your spam folder or request a new one.";
+  static const String yourAccountCreatedTitle = "Your Account is Ready!";
+  static const String yourAccountCreatedSubTitle = "Welcome to AtmaNirbhar Bazaar - Empowering Local Artisans, One Purchase at a Time!";
+  static const String cpaAccount = "By creating an AtmaNirbhar Bazaar account, you agree to our policies. Support small businesses with every purchase.";
 
   // -- Product
-  static const String popularProducts = "Popular Stamps";
+  static const String popularProducts = "Trending Handcrafted Items";
 
   // -- Home
-  static const String homeAppbarTitle = "Good day for shopping";
-  static const String homeAppbarSubTitle = "Ranojit Das";
-
+  static const String homeAppbarTitle = "Shop Local, Support Local";
+  static const String homeAppbarSubTitle = "Welcome, Ranojit Das";
 
 }
-

@@ -1,14 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
-import 'package:philately/common/widgets/icons/t_circular_icon.dart';
-import 'package:philately/utils/constants/colors.dart';
-import 'package:philately/utils/constants/sizes.dart';
-import 'package:philately/utils/helpers/helper_functions.dart';
+import 'package:HeritageHub/common/widgets/icons/t_circular_icon.dart';
+import 'package:HeritageHub/features/shop/screens/cart/widgets/cart_controller.dart';
+import 'package:HeritageHub/utils/constants/colors.dart';
+import 'package:HeritageHub/utils/constants/sizes.dart';
+import 'package:HeritageHub/utils/helpers/helper_functions.dart';
 
 
 class TProductAddRemove extends StatelessWidget {
   const TProductAddRemove({
-    super.key,
+    super.key, required CartItem item,
   });
 
   @override

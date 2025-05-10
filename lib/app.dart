@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
-import 'package:philately/bindings/general_bindings.dart';
-import 'package:philately/features/authentication/screens/onboarding/onboarding.dart';
-import 'package:philately/utils/constants/colors.dart';
-import 'package:philately/utils/theme/theme.dart';
+import 'package:HeritageHub/bindings/general_bindings.dart';
+import 'package:HeritageHub/features/authentication/screens/onboarding/onboarding.dart';
+import 'package:HeritageHub/utils/constants/colors.dart';
+import 'package:HeritageHub/utils/theme/theme.dart';
 
 /// -- use this class to setup themes , initial bindings and any animations
 

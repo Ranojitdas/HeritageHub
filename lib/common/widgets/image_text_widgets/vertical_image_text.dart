@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:philately/utils/constants/colors.dart';
-import 'package:philately/utils/constants/sizes.dart';
-import 'package:philately/utils/helpers/helper_functions.dart';
+import 'package:HeritageHub/utils/constants/colors.dart';
+import 'package:HeritageHub/utils/constants/sizes.dart';
+import 'package:HeritageHub/utils/helpers/helper_functions.dart';
 
 
 class TVerticalImageText extends StatelessWidget {

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:philately/common/widgets/image_text_widgets/vertical_image_text.dart';
-import 'package:philately/features/shop/screens/sub_category/sub_categories.dart';
-import 'package:philately/utils/constants/image_strings.dart';
+import 'package:HeritageHub/common/widgets/image_text_widgets/vertical_image_text.dart';
+import 'package:HeritageHub/features/shop/screens/sub_category/sub_categories.dart';
+import 'package:HeritageHub/utils/constants/image_strings.dart';
 
 class THomeCategories extends StatelessWidget {
   const THomeCategories({super.key});

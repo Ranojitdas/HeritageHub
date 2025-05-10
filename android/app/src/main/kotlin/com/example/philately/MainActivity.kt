@@ -1,4 +1,4 @@
-package com.example.philately
+package com.example.HeritageHub
 
 import io.flutter.embedding.android.FlutterActivity
 

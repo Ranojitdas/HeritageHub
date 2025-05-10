@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:philately/common/widgets/texts/section_heading.dart';
-import 'package:philately/utils/constants/sizes.dart';
+import 'package:HeritageHub/common/widgets/texts/section_heading.dart';
+import 'package:HeritageHub/utils/constants/sizes.dart';
 
 class TBillingAddress extends StatelessWidget {
   const TBillingAddress({super.key});

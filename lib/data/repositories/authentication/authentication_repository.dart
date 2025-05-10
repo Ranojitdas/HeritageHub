@@ -3,13 +3,13 @@ import 'package:flutter/services.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:philately/features/authentication/screens/login/login.dart';
-import 'package:philately/features/authentication/screens/onboarding/onboarding.dart';
-import 'package:philately/features/authentication/screens/signup/verify_email.dart';
-import 'package:philately/navigation_menu.dart';
-import 'package:philately/utils/exceptions/firebase_auth_exceptions.dart';
-import 'package:philately/utils/exceptions/firebase_exceptions.dart';
-import 'package:philately/utils/exceptions/format_exceptions.dart';
+import 'package:HeritageHub/features/authentication/screens/login/login.dart';
+import 'package:HeritageHub/features/authentication/screens/onboarding/onboarding.dart';
+import 'package:HeritageHub/features/authentication/screens/signup/verify_email.dart';
+import 'package:HeritageHub/navigation_menu.dart';
+import 'package:HeritageHub/utils/exceptions/firebase_auth_exceptions.dart';
+import 'package:HeritageHub/utils/exceptions/firebase_exceptions.dart';
+import 'package:HeritageHub/utils/exceptions/format_exceptions.dart';
 
 
 class AuthenticationRepository extends GetxController {

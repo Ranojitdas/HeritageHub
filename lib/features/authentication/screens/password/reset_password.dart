@@ -1,10 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:philately/utils/constants/image_strings.dart';
-import 'package:philately/utils/constants/sizes.dart';
+import 'package:HeritageHub/utils/constants/image_strings.dart';
+import 'package:HeritageHub/utils/constants/sizes.dart';
 import 'package:get/get.dart';
-import 'package:philately/utils/constants/text_strings.dart';
-import 'package:philately/utils/helpers/helper_functions.dart';
+import 'package:HeritageHub/utils/constants/text_strings.dart';
+import 'package:HeritageHub/utils/helpers/helper_functions.dart';
 
 class ResetPassword extends StatelessWidget {
   const ResetPassword({super.key});

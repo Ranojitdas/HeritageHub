@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:philately/common/widgets/custom_shapes/containers/rounded_container.dart';
-import 'package:philately/utils/constants/colors.dart';
-import 'package:philately/utils/constants/sizes.dart';
-import 'package:philately/utils/helpers/helper_functions.dart';
+import 'package:HeritageHub/common/widgets/custom_shapes/containers/rounded_container.dart';
+import 'package:HeritageHub/utils/constants/colors.dart';
+import 'package:HeritageHub/utils/constants/sizes.dart';
+import 'package:HeritageHub/utils/helpers/helper_functions.dart';
 
 
 class TCouponCode extends StatelessWidget {

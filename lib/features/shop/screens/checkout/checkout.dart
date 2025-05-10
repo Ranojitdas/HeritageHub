@@ -2,19 +2,19 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
-import 'package:philately/common/widgets/Success_screen/success_screen.dart';
-import 'package:philately/common/widgets/appbar/appbar.dart';
-import 'package:philately/common/widgets/custom_shapes/containers/rounded_container.dart';
-import 'package:philately/common/widgets/products.cart/coupon_card.dart';
-import 'package:philately/features/shop/screens/cart/widgets/cart_items.dart';
-import 'package:philately/features/shop/screens/checkout/widgets/billing_address.dart';
-import 'package:philately/features/shop/screens/checkout/widgets/billing_amount.dart';
-import 'package:philately/features/shop/screens/checkout/widgets/billing_payments.dart';
-import 'package:philately/navigation_menu.dart';
-import 'package:philately/utils/constants/colors.dart';
-import 'package:philately/utils/constants/image_strings.dart';
-import 'package:philately/utils/constants/sizes.dart';
-import 'package:philately/utils/helpers/helper_functions.dart';
+import 'package:HeritageHub/common/widgets/Success_screen/success_screen.dart';
+import 'package:HeritageHub/common/widgets/appbar/appbar.dart';
+import 'package:HeritageHub/common/widgets/custom_shapes/containers/rounded_container.dart';
+import 'package:HeritageHub/common/widgets/products.cart/coupon_card.dart';
+import 'package:HeritageHub/features/shop/screens/cart/widgets/cart_items.dart';
+import 'package:HeritageHub/features/shop/screens/checkout/widgets/billing_address.dart';
+import 'package:HeritageHub/features/shop/screens/checkout/widgets/billing_amount.dart';
+import 'package:HeritageHub/features/shop/screens/checkout/widgets/billing_payments.dart';
+import 'package:HeritageHub/navigation_menu.dart';
+import 'package:HeritageHub/utils/constants/colors.dart';
+import 'package:HeritageHub/utils/constants/image_strings.dart';
+import 'package:HeritageHub/utils/constants/sizes.dart';
+import 'package:HeritageHub/utils/helpers/helper_functions.dart';
 
 class CheckOutScreen extends StatelessWidget {
   const CheckOutScreen({super.key});
@@ -74,7 +74,7 @@ class CheckOutScreen extends StatelessWidget {
             image: TImages.successfulPaymentIcon, title: 'Payment Sucess', subTitle: 'Your Stamp will be shipped soon', onPressed: () => Get.offAll(() => const NavigationMenu()),
     ),
     ),
-    child: Text('Checkout \$1500.0'),)
+    child: Text('Checkout 1500.0'),)
     ),
     );
   }

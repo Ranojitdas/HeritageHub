@@ -1,6 +1,6 @@
 {
-    "name": "philately",
-    "short_name": "philately",
+    "name": "HeritageHub",
+    "short_name": "HeritageHub",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

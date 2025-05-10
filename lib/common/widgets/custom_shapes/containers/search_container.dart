@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
-import 'package:philately/utils/constants/colors.dart';
-import 'package:philately/utils/constants/sizes.dart';
-import 'package:philately/utils/device/device_utility.dart';
-import 'package:philately/utils/helpers/helper_functions.dart';
+import 'package:HeritageHub/utils/constants/colors.dart';
+import 'package:HeritageHub/utils/constants/sizes.dart';
+import 'package:HeritageHub/utils/device/device_utility.dart';
+import 'package:HeritageHub/utils/helpers/helper_functions.dart';
 
 
 class TSearchContainer extends StatelessWidget {

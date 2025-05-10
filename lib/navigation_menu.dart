@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
-import 'package:philately/features/personalization/screens/settings/settings.dart';
-import 'package:philately/features/shop/screens/Home/home.dart';
-import 'package:philately/features/shop/screens/Wishlist/wishlist.dart';
-import 'package:philately/features/shop/screens/store/store.dart';
-import 'package:philately/utils/constants/colors.dart';
-import 'package:philately/utils/helpers/helper_functions.dart';
+import 'package:HeritageHub/features/personalization/screens/settings/settings.dart';
+import 'package:HeritageHub/features/shop/screens/Home/home.dart';
+import 'package:HeritageHub/features/shop/screens/store/store.dart';
+import 'package:HeritageHub/utils/constants/colors.dart';
+import 'package:HeritageHub/utils/helpers/helper_functions.dart';
+import 'features/shop/screens/Historic_sites/historic_site.dart';
 
 class NavigationMenu extends StatelessWidget {
   const NavigationMenu({super.key});
@@ -27,8 +27,8 @@ class NavigationMenu extends StatelessWidget {
         
           destinations: const [
             NavigationDestination(icon: Icon(Iconsax.home), label: 'Home'),
-            NavigationDestination(icon: Icon(Iconsax.shop), label: 'Collections'),
-            NavigationDestination(icon: Icon(Iconsax.heart), label: 'Wishlist'),
+            NavigationDestination(icon: Icon(Iconsax.shop), label: 'Crafts'),
+            NavigationDestination(icon: Icon(Iconsax.courthouse), label: 'Heritage Sites'),
             NavigationDestination(icon: Icon(Iconsax.user), label: 'Profile'),
         ],
         
@@ -41,5 +41,5 @@ class NavigationMenu extends StatelessWidget {
 
 class NavigationController extends GetxController{
   final Rx<int> selectedIndex = 0.obs;
-  final screens = [ HomeScreen(), const StoreScreen() , const FavouriteScreen(),const SettingScreen()];
+  final screens = [ HomeScreen(), StoreScreen() , const HistoricScreen(),const SettingScreen()];
 }

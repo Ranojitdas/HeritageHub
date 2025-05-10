@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
-import 'package:philately/utils/constants/sizes.dart';
+import 'package:HeritageHub/utils/constants/sizes.dart';
 
 
 class TRatingAndShare extends StatelessWidget {

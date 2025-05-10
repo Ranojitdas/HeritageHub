@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:philately/features/authentication/controllers.onboarding/onboarding_controller.dart';
-import 'package:philately/utils/constants/colors.dart';
-import 'package:philately/utils/constants/sizes.dart';
-import 'package:philately/utils/device/device_utility.dart';
-import 'package:philately/utils/helpers/helper_functions.dart';
+import 'package:HeritageHub/features/authentication/controllers.onboarding/onboarding_controller.dart';
+import 'package:HeritageHub/utils/constants/colors.dart';
+import 'package:HeritageHub/utils/constants/sizes.dart';
+import 'package:HeritageHub/utils/device/device_utility.dart';
+import 'package:HeritageHub/utils/helpers/helper_functions.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 

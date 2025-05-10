@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:philately/utils/constants/colors.dart';
+import 'package:HeritageHub/utils/constants/colors.dart';
 
 class TSettingsMenuTile extends StatelessWidget {
   const TSettingsMenuTile({

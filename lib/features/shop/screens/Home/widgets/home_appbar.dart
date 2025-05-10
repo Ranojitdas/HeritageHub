@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:philately/common/widgets/appbar/appbar.dart';
-import 'package:philately/common/widgets/products.cart/cart_menu_icon.dart';
-import 'package:philately/utils/constants/colors.dart';
-import 'package:philately/utils/constants/text_strings.dart';
+import 'package:HeritageHub/common/widgets/appbar/appbar.dart';
+import 'package:HeritageHub/common/widgets/products.cart/cart_menu_icon.dart';
+import 'package:HeritageHub/utils/constants/colors.dart';
+import 'package:HeritageHub/utils/constants/text_strings.dart';
 
 
 class THomeAppBar extends StatelessWidget {

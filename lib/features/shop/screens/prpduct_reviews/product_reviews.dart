@@ -3,15 +3,15 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:iconsax/iconsax.dart';
-import 'package:philately/common/widgets/appbar/appbar.dart';
-import 'package:philately/features/shop/screens/prpduct_reviews/product_reviews.dart';
-import 'package:philately/features/shop/screens/prpduct_reviews/widgets/overall_product_rating.dart';
-import 'package:philately/features/shop/screens/prpduct_reviews/widgets/rating_barindicator.dart';
-import 'package:philately/features/shop/screens/prpduct_reviews/widgets/review_progessbar.dart';
-import 'package:philately/features/shop/screens/prpduct_reviews/widgets/user_review_card.dart';
-import 'package:philately/utils/constants/colors.dart';
-import 'package:philately/utils/constants/sizes.dart';
-import 'package:philately/utils/device/device_utility.dart';
+import 'package:HeritageHub/common/widgets/appbar/appbar.dart';
+import 'package:HeritageHub/features/shop/screens/prpduct_reviews/product_reviews.dart';
+import 'package:HeritageHub/features/shop/screens/prpduct_reviews/widgets/overall_product_rating.dart';
+import 'package:HeritageHub/features/shop/screens/prpduct_reviews/widgets/rating_barindicator.dart';
+import 'package:HeritageHub/features/shop/screens/prpduct_reviews/widgets/review_progessbar.dart';
+import 'package:HeritageHub/features/shop/screens/prpduct_reviews/widgets/user_review_card.dart';
+import 'package:HeritageHub/utils/constants/colors.dart';
+import 'package:HeritageHub/utils/constants/sizes.dart';
+import 'package:HeritageHub/utils/device/device_utility.dart';
 
 class ProductReview extends StatelessWidget {
   const ProductReview({super.key});
@@ -27,7 +27,7 @@ class ProductReview extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              const Text('Ratings and Reviews are verified and are from Well-known Philatelists and peoples.'),
+              const Text('Ratings and reviews are verified and come from expert artisans and cultural connoisseurs, ensuring authenticity and craftsmanship in every piece.'),
               const SizedBox(height: TSizes.spaceBtwItems,),
               
               ///Overall Product Ratings

@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
-import 'package:philately/features/authentication/controllers.onboarding/onboarding_controller.dart';
-import 'package:philately/features/authentication/screens/widgets/onboarding_dot_navigation.dart';
-import 'package:philately/features/authentication/screens/widgets/onboarding_page.dart';
-import 'package:philately/features/authentication/screens/widgets/onboarding_skip.dart';
-import 'package:philately/utils/constants/image_strings.dart';
-import 'package:philately/utils/constants/sizes.dart';
-import 'package:philately/utils/constants/text_strings.dart';
-import 'package:philately/utils/device/device_utility.dart';
-import 'package:philately/utils/helpers/helper_functions.dart';
+import 'package:HeritageHub/features/authentication/controllers.onboarding/onboarding_controller.dart';
+import 'package:HeritageHub/features/authentication/screens/widgets/onboarding_dot_navigation.dart';
+import 'package:HeritageHub/features/authentication/screens/widgets/onboarding_page.dart';
+import 'package:HeritageHub/features/authentication/screens/widgets/onboarding_skip.dart';
+import 'package:HeritageHub/utils/constants/image_strings.dart';
+import 'package:HeritageHub/utils/constants/sizes.dart';
+import 'package:HeritageHub/utils/constants/text_strings.dart';
+import 'package:HeritageHub/utils/device/device_utility.dart';
+import 'package:HeritageHub/utils/helpers/helper_functions.dart';
 
 class OnBoardingScreen extends StatelessWidget {
   const OnBoardingScreen({super.key});

@@ -2,11 +2,11 @@ import 'dart:async';
 
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:get/get.dart';
-import 'package:philately/common/widgets/Success_screen/success_screen.dart';
-import 'package:philately/common/widgets/loaders/loaders.dart';
-import 'package:philately/data/repositories/authentication/authentication_repository.dart';
-import 'package:philately/utils/constants/image_strings.dart';
-import 'package:philately/utils/constants/text_strings.dart';
+import 'package:HeritageHub/common/widgets/Success_screen/success_screen.dart';
+import 'package:HeritageHub/common/widgets/loaders/loaders.dart';
+import 'package:HeritageHub/data/repositories/authentication/authentication_repository.dart';
+import 'package:HeritageHub/utils/constants/image_strings.dart';
+import 'package:HeritageHub/utils/constants/text_strings.dart';
 
 class VerifyEmailController extends GetxController {
   static VerifyEmailController get instance => Get.find();
@@ -24,7 +24,7 @@ class VerifyEmailController extends GetxController {
           await AuthenticationRepository.instance.sendEmailVerification();
           TLoaders.successSnackBar(title: 'Email sent',message:'Please check your inbox and verify your email.');
         } catch(e){
-          TLoaders.errorSnackBar(title: 'Email not verified for your philately account', message:e.toString() );
+          TLoaders.errorSnackBar(title: 'Email not verified for your HeritageHub account', message:e.toString() );
         }
     }
 ///  timer to automatically redirect on email verification

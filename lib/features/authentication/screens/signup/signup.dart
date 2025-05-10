@@ -1,12 +1,12 @@
 // import 'dart:html';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:philately/features/authentication/screens/login/Widgets/TSocialButtons.dart';
-import 'package:philately/features/authentication/screens/signup/widgets/SignUp_Form.dart';
-import 'package:philately/utils/constants/colors.dart';
-import 'package:philately/utils/constants/sizes.dart';
-import 'package:philately/utils/constants/text_strings.dart';
-import 'package:philately/utils/helpers/helper_functions.dart';
+import 'package:HeritageHub/features/authentication/screens/login/Widgets/TSocialButtons.dart';
+import 'package:HeritageHub/features/authentication/screens/signup/widgets/SignUp_Form.dart';
+import 'package:HeritageHub/utils/constants/colors.dart';
+import 'package:HeritageHub/utils/constants/sizes.dart';
+import 'package:HeritageHub/utils/constants/text_strings.dart';
+import 'package:HeritageHub/utils/helpers/helper_functions.dart';
 class SignupScreen extends StatelessWidget {
   const SignupScreen({super.key});
 

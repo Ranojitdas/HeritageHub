@@ -32,11 +32,15 @@ class SignupController extends GetxController {
     'Exhibitions',
     'New Releases',
     'Cancellation',
-    'Mint Commemorative Stamps',
-    'Mint Definitive Stamps',
-    'First Day Covers',
-    'Information Brochure',
-    'Postal Stationary'
+    'Kalamkari Artwork',
+    'Meenakari Jewelry',
+    'Terracotta Sculpture',
+    'Pattachitra Painting',
+    'Bandhani Fabric',
+    'Brassware Decor',
+    'Gond Painting',
+    'Muga Silk Saree',
+    'Assam Handicraft',
   ].obs;
   final selectedPreferences = <String>[].obs;
 
@@ -44,13 +48,17 @@ class SignupController extends GetxController {
   final Map<String, String> preferenceImages = {
     'HeritageHub News': TImages.productImage5,
     'Exhibitions': TImages.productImage7,
-    'New Releases':TImages.productImage8,
-    'Cancellation':TImages.productImage9,
-    'Mint Commemorative Stamps': TImages.productImage2,
-    'Mint Definitive Stamps': TImages.productImage5,
-    'First Day Covers': TImages.productImage3,
-    'Information Brochure': TImages.productImage4,
-    'Postal Stationary': TImages.productImage6,
+    'New Releases': TImages.productImage8,
+    'Cancellation': TImages.productImage9,
+    'Kalamkari Artwork': TImages.productImage2,
+    'Meenakari Jewelry': TImages.productImage5,
+    'Terracotta Sculpture': TImages.productImage3,
+    'Pattachitra Painting': TImages.productImage4,
+    'Bandhani Fabric': TImages.productImage6,
+    'Brassware Decor': TImages.productImage7,
+    'Gond Painting': TImages.productImage8,
+    'Muga Silk Saree': TImages.productImage9,
+    'Assam Handicraft': TImages.productImage10,
   };
 
   /// Get dynamic title based on preferences
@@ -88,7 +96,8 @@ class SignupController extends GetxController {
       if (!privacyPolicy.value) {
         TLoaders.warningSnackBar(
           title: 'Accept Privacy Policy',
-          message: 'You must accept the Privacy Policy & Terms of Use to create an account.',
+          message:
+              'You must accept the Privacy Policy & Terms of Use to create an account.',
         );
         return;
       }
@@ -114,7 +123,8 @@ class SignupController extends GetxController {
 
       // Register user in Firebase Authentication
       final userCredential = await AuthenticationRepository.instance
-          .registerWithEmailAndPassword(email.text.trim(), password.text.trim());
+          .registerWithEmailAndPassword(
+              email.text.trim(), password.text.trim());
 
       // Save data in Firebase Firestore
       final newUser = UserModel(
@@ -136,7 +146,8 @@ class SignupController extends GetxController {
       // Show success message
       TLoaders.successSnackBar(
         title: 'Congratulations',
-        message: 'Your account has been created! Please verify your email to continue.',
+        message:
+            'Your account has been created! Please verify your email to continue.',
       );
 
       // Navigate to verify email screen

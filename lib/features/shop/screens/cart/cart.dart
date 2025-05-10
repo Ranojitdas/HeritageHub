@@ -29,7 +29,6 @@ class CartScreen extends StatelessWidget {
         title: Text('Cart', style: Theme.of(context).textTheme.headlineSmall),
         showBackArrow: true,
       ),
-
       body: Obx(() {
         if (cartController.cartItems.isEmpty) {
           return const Center(child: Text('Your cart is empty.'));
@@ -39,7 +38,6 @@ class CartScreen extends StatelessWidget {
           child: const TCartItems(showAddRemove: true), // ✅ Dynamic cart items
         );
       }),
-
       bottomNavigationBar: Obx(() {
         return Padding(
           padding: const EdgeInsets.all(TSizes.defaultSpace),
@@ -73,7 +71,6 @@ class CheckOutScreen extends StatelessWidget {
           style: Theme.of(context).textTheme.headlineSmall,
         ),
       ),
-
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(TSizes.defaultSpace),
         child: Column(
@@ -106,17 +103,17 @@ class CheckOutScreen extends StatelessWidget {
           ],
         ),
       ),
-
       bottomNavigationBar: Padding(
         padding: const EdgeInsets.all(TSizes.defaultSpace),
         child: Obx(() {
           return ElevatedButton(
             onPressed: () => Get.to(
-                  () => SuccessScreen(
+              () => SuccessScreen(
                 image: TImages.successfulPaymentIcon,
                 title: 'Payment Success',
-                subTitle: 'Your Stamp will be shipped soon',
-                onPressed: () => Get.offAll(() => const NavigationMenu()), // ✅ Navigate to home
+                subTitle: 'Your Handicraft will be shipped soon',
+                onPressed: () => Get.offAll(
+                    () => const NavigationMenu()), // ✅ Navigate to home
               ),
             ),
             child: Text(

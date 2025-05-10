@@ -14,35 +14,53 @@ class SubCategories extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: TAppbar(title: Text('Popular'),showBackArrow: true,),
+      appBar: TAppbar(
+        title: Text('Popular'),
+        showBackArrow: true,
+      ),
       body: SingleChildScrollView(
         child: Padding(
-            padding: EdgeInsets.all(TSizes.defaultSpace),
-        child: Column(
-          children: [
-            /// Banner
-            TRoundedImage(imageUrl: TImages.promoBanner3,width: double.infinity,applyImageRadius: true,),
-            SizedBox(height: TSizes.spaceBtwSections,),
+          padding: EdgeInsets.all(TSizes.defaultSpace),
+          child: Column(
+            children: [
+              /// Banner
+              TRoundedImage(
+                imageUrl: TImages.promoBanner3,
+                width: double.infinity,
+                applyImageRadius: true,
+              ),
+              SizedBox(
+                height: TSizes.spaceBtwSections,
+              ),
 
-            /// Sub Categories
-            Column(
-              children: [
-                /// Heading
-                TSectionHeading(title: 'Popular Stamps',onPressed: (){},),
-                const SizedBox(height: TSizes.spaceBtwItems/2,),
+              /// Sub Categories
+              Column(
+                children: [
+                  /// Heading
+                  TSectionHeading(
+                    title: 'Popular Handicrafts',
+                    onPressed: () {},
+                  ),
+                  const SizedBox(
+                    height: TSizes.spaceBtwItems / 2,
+                  ),
 
-                SizedBox(
-                  height: 120,
-                  child: ListView.separated(
-                      itemCount: 4,
-                      scrollDirection: Axis.horizontal,
-                      separatorBuilder: (context, index)=> const SizedBox(width: TSizes.spaceBtwItems,),
-                      itemBuilder: (context, index) => const TProductCardHorizontal()),
-                ),
-              ],
-            )
-          ],
-        ),),
+                  SizedBox(
+                    height: 120,
+                    child: ListView.separated(
+                        itemCount: 4,
+                        scrollDirection: Axis.horizontal,
+                        separatorBuilder: (context, index) => const SizedBox(
+                              width: TSizes.spaceBtwItems,
+                            ),
+                        itemBuilder: (context, index) =>
+                            const TProductCardHorizontal()),
+                  ),
+                ],
+              )
+            ],
+          ),
+        ),
       ),
     );
   }

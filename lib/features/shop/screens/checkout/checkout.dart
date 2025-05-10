@@ -25,7 +25,10 @@ class CheckOutScreen extends StatelessWidget {
     return Scaffold(
       appBar: TAppbar(
         showBackArrow: true,
-        title: Text('Order Review',style: Theme.of(context).textTheme.headlineSmall,),
+        title: Text(
+          'Order Review',
+          style: Theme.of(context).textTheme.headlineSmall,
+        ),
       ),
       body: SingleChildScrollView(
         child: Padding(
@@ -33,31 +36,44 @@ class CheckOutScreen extends StatelessWidget {
           child: Column(
             children: [
               /// Items in Cart
-              const TCartItems(showAddRemove: false,),
-              SizedBox(height: TSizes.spaceBtwSections,),
+              const TCartItems(
+                showAddRemove: false,
+              ),
+              SizedBox(
+                height: TSizes.spaceBtwSections,
+              ),
 
               /// Coupon
               TCouponCode(),
-              SizedBox(height: TSizes.spaceBtwSections,),
+              SizedBox(
+                height: TSizes.spaceBtwSections,
+              ),
 
               /// Billing Section
               TRoundedContainer(
-                  showBorder: true,
+                showBorder: true,
                 padding: const EdgeInsets.all(TSizes.md),
-                backgroundColor: dark ? TColors.black :TColors.white,
+                backgroundColor: dark ? TColors.black : TColors.white,
                 child: const Column(
                   children: [
                     /// Pricing
-                   TBillingAmount(),
-                    SizedBox(height: TSizes.spaceBtwItems,),
+                    TBillingAmount(),
+                    SizedBox(
+                      height: TSizes.spaceBtwItems,
+                    ),
 
                     /// Divider
                     Divider(),
-                    SizedBox(height: TSizes.spaceBtwItems,),
+                    SizedBox(
+                      height: TSizes.spaceBtwItems,
+                    ),
 
                     /// Payment Methods
                     TBillingPayment(),
-                    SizedBox(height: TSizes.spaceBtwItems,),
+                    SizedBox(
+                      height: TSizes.spaceBtwItems,
+                    ),
+
                     /// Address
                     TBillingAddress(),
                   ],
@@ -67,15 +83,19 @@ class CheckOutScreen extends StatelessWidget {
           ),
         ),
       ),
-
       bottomNavigationBar: Padding(
-        padding: const EdgeInsets.all(TSizes.defaultSpace),
-        child: ElevatedButton(onPressed: () => Get.to(() => SuccessScreen(
-            image: TImages.successfulPaymentIcon, title: 'Payment Sucess', subTitle: 'Your Stamp will be shipped soon', onPressed: () => Get.offAll(() => const NavigationMenu()),
-    ),
-    ),
-    child: Text('Checkout 1500.0'),)
-    ),
+          padding: const EdgeInsets.all(TSizes.defaultSpace),
+          child: ElevatedButton(
+            onPressed: () => Get.to(
+              () => SuccessScreen(
+                image: TImages.successfulPaymentIcon,
+                title: 'Payment Success',
+                subTitle: 'Your Handicraft will be shipped soon',
+                onPressed: () => Get.offAll(() => const NavigationMenu()),
+              ),
+            ),
+            child: Text('Checkout 1500.0'),
+          )),
     );
   }
 }

@@ -62,15 +62,18 @@ class TImages {
       "assets/images/on_boarding_images/sammy-line-delivery.gif";
 
   // -- Products
-  static const String productImage1 = "assets/images/products/stamp1.jpg";
-  static const String productImage2 = "assets/images/products/stamp2.jpg";
-  static const String productImage3 = "assets/images/products/stamp8.jpg";
-  static const String productImage4 = "assets/images/products/stamp6.jpg";
-  static const String productImage5 = "assets/images/products/stamp10.jpg";
-  static const String productImage6 = "assets/images/products/stamp12.jpg";
-  static const String productImage7 = "assets/images/products/stamp11.jpg";
-  static const String productImage8 = "assets/images/products/stamp12.jpg";
-  static const String productImage9 = "assets/images/products/stamp13.jpg";
+  static const String productImage1 = "assets/images/products/kalamkari.jpg";
+  static const String productImage2 = "assets/images/products/meenakari.jpg";
+  static const String productImage3 = "assets/images/products/terracotta.jpg";
+  static const String productImage4 = "assets/images/products/pattachitra.jpg";
+  static const String productImage5 = "assets/images/products/bandhani.jpg";
+  static const String productImage6 = "assets/images/products/brassware.jpg";
+  static const String productImage7 = "assets/images/products/gond.jpg";
+  static const String productImage8 = "assets/images/products/muga_silk.jpg";
+  static const String productImage9 =
+      "assets/images/products/assam_handicraft.jpg";
+  static const String productImage10 =
+      "assets/images/products/assam_handicraft.jpg";
   // West Bengal Products
   static const String productImageWB1 =
       "assets/images/products/westbengal_product_1.jpg";

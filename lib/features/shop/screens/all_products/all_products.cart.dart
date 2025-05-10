@@ -18,22 +18,94 @@ class _AllProductsState extends State<AllProducts> {
 
   final Map<String, List<Map<String, String>>> stateProducts = {
     'West Bengal': [
-      {'imageUrl': TImages.productImageWB1, 'title': 'Terracotta Art', 'price': '200', 'description': 'Clay craft', 'discount': '10%'},
-      {'imageUrl': TImages.productImageWB2, 'title': 'Kantha Embroidery', 'price': '150', 'description': 'Hand stitch', 'discount': '15%'},
-      {'imageUrl': TImages.productImageWB3, 'title': 'Dokra Metalwork', 'price': '250', 'description': 'Brass casting', 'discount': '12%'},
-      {'imageUrl': TImages.productImageWB4, 'title': 'Shola Craft', 'price': '180', 'description': 'Softwood art', 'discount': '20%'},
+      {
+        'imageUrl': TImages.productImageWB1,
+        'title': 'Terracotta Art',
+        'price': '200',
+        'description': 'Clay craft',
+        'discount': '10%'
+      },
+      {
+        'imageUrl': TImages.productImageWB2,
+        'title': 'Kantha Embroidery',
+        'price': '150',
+        'description': 'Hand stitch',
+        'discount': '15%'
+      },
+      {
+        'imageUrl': TImages.productImageWB3,
+        'title': 'Dokra Metalwork',
+        'price': '250',
+        'description': 'Brass casting',
+        'discount': '12%'
+      },
+      {
+        'imageUrl': TImages.productImageWB4,
+        'title': 'Shola Craft',
+        'price': '180',
+        'description': 'Softwood art',
+        'discount': '20%'
+      },
     ],
     'Andhra Pradesh': [
-      {'imageUrl': TImages.productImageAP1, 'title': 'Kalamkari', 'price': '250', 'description': 'Fabric painting', 'discount': '20%'},
-      {'imageUrl': TImages.productImageAP2, 'title': 'Etikoppaka Toys', 'price': '180', 'description': 'Wood craft', 'discount': '25%'},
-      {'imageUrl': TImages.productImageAP3, 'title': 'Leather Puppetry', 'price': '220', 'description': 'Shadow puppets', 'discount': '15%'},
-      {'imageUrl': TImages.productImageAP4, 'title': 'Mangalagiri Saree', 'price': '350', 'description': 'Handloom cotton', 'discount': '10%'},
+      {
+        'imageUrl': TImages.productImageAP1,
+        'title': 'Kalamkari',
+        'price': '250',
+        'description': 'Fabric painting',
+        'discount': '20%'
+      },
+      {
+        'imageUrl': TImages.productImageAP2,
+        'title': 'Etikoppaka Toys',
+        'price': '180',
+        'description': 'Wood craft',
+        'discount': '25%'
+      },
+      {
+        'imageUrl': TImages.productImageAP3,
+        'title': 'Leather Puppetry',
+        'price': '220',
+        'description': 'Shadow puppets',
+        'discount': '15%'
+      },
+      {
+        'imageUrl': TImages.productImageAP4,
+        'title': 'Mangalagiri Saree',
+        'price': '350',
+        'description': 'Handloom cotton',
+        'discount': '10%'
+      },
     ],
     'Rajasthan': [
-      {'imageUrl': TImages.productImageRJ1, 'title': 'Blue Pottery', 'price': '300', 'description': 'Glazed ceramic', 'discount': '30%'},
-      {'imageUrl': TImages.productImageRJ2, 'title': 'Meenakari', 'price': '220', 'description': 'Metal enamel', 'discount': '35%'},
-      {'imageUrl': TImages.productImageRJ3, 'title': 'Block Printing', 'price': '190', 'description': 'Textile art', 'discount': '20%'},
-      {'imageUrl': TImages.productImageRJ4, 'title': 'Mojari Shoes', 'price': '180', 'description': 'Leather footwear', 'discount': '15%'},
+      {
+        'imageUrl': TImages.productImageRJ1,
+        'title': 'Blue Pottery',
+        'price': '300',
+        'description': 'Glazed ceramic',
+        'discount': '30%'
+      },
+      {
+        'imageUrl': TImages.productImageRJ2,
+        'title': 'Meenakari',
+        'price': '220',
+        'description': 'Metal enamel',
+        'discount': '35%'
+      },
+      {
+        'imageUrl': TImages.productImageRJ3,
+        'title': 'Block Printing',
+        'price': '190',
+        'description': 'Textile art',
+        'discount': '20%'
+      },
+      {
+        'imageUrl': TImages.productImageRJ4,
+        'title': 'Mojari Shoes',
+        'price': '180',
+        'description': 'Leather footwear',
+        'discount': '15%'
+      },
     ],
   };
 
@@ -41,7 +113,7 @@ class _AllProductsState extends State<AllProducts> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: const TAppbar(
-        title: Text('Popular Stamps'),
+        title: Text('Popular Handicrafts'),
         showBackArrow: true,
       ),
       body: SingleChildScrollView(
@@ -51,17 +123,20 @@ class _AllProductsState extends State<AllProducts> {
             children: [
               /// Dropdown for State Selection
               DropdownButtonFormField(
-                decoration: const InputDecoration(prefixIcon: Icon(Iconsax.sort)),
+                decoration:
+                    const InputDecoration(prefixIcon: Icon(Iconsax.sort)),
                 value: selectedState,
                 onChanged: (value) {
                   setState(() {
                     selectedState = value.toString();
                   });
                 },
-                items: stateProducts.keys.map((state) => DropdownMenuItem(
-                  value: state,
-                  child: Text(state),
-                )).toList(),
+                items: stateProducts.keys
+                    .map((state) => DropdownMenuItem(
+                          value: state,
+                          child: Text(state),
+                        ))
+                    .toList(),
               ),
               const SizedBox(height: TSizes.spaceBtwSections),
 

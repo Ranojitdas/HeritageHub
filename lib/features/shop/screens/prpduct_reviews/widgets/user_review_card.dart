@@ -99,7 +99,7 @@ class UserReviewCard extends StatelessWidget {
                   height: TSizes.spaceBtwItems,
                 ),
                 const ReadMoreText(
-                  "This stamp is a true gem for collectors! The intricate floral design and vibrant colors make it stand out, and the subtle cancellation marks add a fascinating touch of history. It's a perfect addition to my collection, and I couldn’t be happier with its quality.",
+                  "This handicraft is a true gem for collectors! The intricate floral design and vibrant colors make it stand out, and the subtle details add a fascinating touch of history. It's a perfect addition to my collection.",
                   trimLines: 2,
                   trimMode: TrimMode.Line,
                   trimExpandedText: ' show less',

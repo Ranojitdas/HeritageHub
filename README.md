@@ -107,39 +107,17 @@ welcome contributions! To contribute:
 ---
 ## 📸 Screenshots
 
-### 1️⃣ User Login 
-<div align="center">
-  <figure>
-    <img src="https://github.com/Ranojitdas/HeritageHub/blob/master/Screenshot%202025-03-08%20234824.png" alt="Welcome & Sign-Up" width="300" />
-  
-  </figure>
-</div>
-
-### 2️⃣ Historic Sites
-<div align="center">
-  <figure>
-    <img src="https://github.com/Ranojitdas/HeritageHub/blob/master/Screenshot 2025-03-08 235147.png" alt="Historic Sites" width="300" />
-  </figure>
-</div>
-
-### 3️⃣ Email Authentication
-<div align="center">
-  <figure>
-    <img src="https://github.com/Ranojitdas/HeritageHub/blob/master/Screenshot 2025-03-08 235512.png" alt="Email Authentication" width="300" />
-    
-  </figure>
-</div>
-
-### 4️⃣ Personalized Home Page
-<div align="center">
-  <figure>
-    <img src="https://github.com/Ranojitdas/HeritageHub/blob/master/Screenshot 2025-03-08 235600.png" alt="Home Page" width="300" />
-  </figure>
-</div>
-
-### 5️⃣ Other Features
-<div align="center">
-  <figure>
-    <img src="https://github.com/Ranojitdas/HeritageHub/blob/master/Screenshot 2025-03-08 235620.png" alt="Buy & Wishlist" width="300" />
-  </figure>
-</div>
+<table>
+  <tr>
+    <td><img src="https://res.cloudinary.com/deuhpyrku/image/upload/v1747936993/HeritageHub_1_timphz.png" width="200"/></td>
+    <td><img src="https://res.cloudinary.com/deuhpyrku/image/upload/v1747936998/HeritageHub_2_m7dhmv.png" width="200"/></td>
+    <td><img src="https://res.cloudinary.com/deuhpyrku/image/upload/v1747936993/HeritageHub_3_gwenbx.png" width="200"/></td>
+    <td><img src="https://res.cloudinary.com/deuhpyrku/image/upload/v1747936998/HeritageHub_4_pm2ohn.png" width="200"/></td>
+  </tr>
+  <tr>
+    <td><img src="https://res.cloudinary.com/deuhpyrku/image/upload/v1747936997/HeritageHub_5_uzcjw6.png" width="200"/></td>
+    <td><img src="https://res.cloudinary.com/deuhpyrku/image/upload/v1747936994/HeritageHub_6_l5prwy.png" width="200"/></td>
+    <td><img src="https://res.cloudinary.com/deuhpyrku/image/upload/v1747937000/HeritageHub_7_zb2iyd.png" width="200"/></td>
+    <td></td>
+  </tr>
+</table>

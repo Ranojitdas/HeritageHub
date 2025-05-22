@@ -109,15 +109,15 @@ welcome contributions! To contribute:
 
 <table>
   <tr>
-    <td><img src="https://res.cloudinary.com/deuhpyrku/image/upload/v1747936993/HeritageHub_1_timphz.png" width="200"/></td>
-    <td><img src="https://res.cloudinary.com/deuhpyrku/image/upload/v1747936998/HeritageHub_2_m7dhmv.png" width="200"/></td>
-    <td><img src="https://res.cloudinary.com/deuhpyrku/image/upload/v1747936993/HeritageHub_3_gwenbx.png" width="200"/></td>
-    <td><img src="https://res.cloudinary.com/deuhpyrku/image/upload/v1747936998/HeritageHub_4_pm2ohn.png" width="200"/></td>
+    <td><img src="https://res.cloudinary.com/deuhpyrku/image/upload/v1747936993/HeritageHub_1_timphz.png" width="300"/></td>
+    <td><img src="https://res.cloudinary.com/deuhpyrku/image/upload/v1747936998/HeritageHub_2_m7dhmv.png" width="300"/></td>
+    <td><img src="https://res.cloudinary.com/deuhpyrku/image/upload/v1747936993/HeritageHub_3_gwenbx.png" width="300"/></td>
+    <td><img src="https://res.cloudinary.com/deuhpyrku/image/upload/v1747936998/HeritageHub_4_pm2ohn.png" width="300"/></td>
   </tr>
   <tr>
-    <td><img src="https://res.cloudinary.com/deuhpyrku/image/upload/v1747936997/HeritageHub_5_uzcjw6.png" width="200"/></td>
-    <td><img src="https://res.cloudinary.com/deuhpyrku/image/upload/v1747936994/HeritageHub_6_l5prwy.png" width="200"/></td>
-    <td><img src="https://res.cloudinary.com/deuhpyrku/image/upload/v1747937000/HeritageHub_7_zb2iyd.png" width="200"/></td>
+    <td><img src="https://res.cloudinary.com/deuhpyrku/image/upload/v1747936997/HeritageHub_5_uzcjw6.png" width="300"/></td>
+    <td><img src="https://res.cloudinary.com/deuhpyrku/image/upload/v1747936994/HeritageHub_6_l5prwy.png" width="300"/></td>
+    <td><img src="https://res.cloudinary.com/deuhpyrku/image/upload/v1747937000/HeritageHub_7_zb2iyd.png" width="300"/></td>
     <td></td>
   </tr>
 </table>
